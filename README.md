@@ -1,6 +1,6 @@
 I ❤️ C | Operating Systems | Debuggers | Compilers | Electronics | FPGA | Virtual Machines | Microprocessors
 
-## Articles
+## Articles 🌱
 
 - [C Case Studies](https://github.com/vineelkovvuri/vineelkovvuri/blob/master/articles/C-Case-Studies/Readme.md)
 - [A Newbies Introduction To Compilation Process And Reverse Engineering](https://github.com/vineelkovvuri/vineelkovvuri/blob/master/articles/a-newbies-introduction-to-compilation-process-and-reverse-engineering/Readme.md)
