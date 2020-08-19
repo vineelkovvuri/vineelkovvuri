@@ -1,4 +1,4 @@
-### Hi there 👋
+I ❤️ C | Operating Systems | Debuggers | Compilers | Electronics | FPGA | Virtual Machines | Microprocessors
 
 <!--
 **vineelkovvuri/vineelkovvuri** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
