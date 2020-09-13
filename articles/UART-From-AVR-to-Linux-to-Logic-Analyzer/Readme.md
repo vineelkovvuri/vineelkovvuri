@@ -6,11 +6,11 @@ In this article, let's see how a program running on Atmega328PU microcontroller
 can communicate to external world using UART. In order to run through this
 exercise we need below equipment.
 
-1. ![Atmega328PU Microcontroller](https://www.aliexpress.com/item/32973635527.html?spm=a2g0s.9042311.0.0.27424c4dOZJfJV)
+1. [Atmega328PU Microcontroller](https://www.aliexpress.com/item/32973635527.html?spm=a2g0s.9042311.0.0.27424c4dOZJfJV)
 2. Breadboard
-3. ![AVR/USBASP programmer](https://www.aliexpress.com/item/32651814443.html?spm=a2g0s.9042311.0.0.27424c4dOZJfJV)
-4. ![USB to TTL Adapater](https://www.amazon.com/gp/product/B00QT7LQ88/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
-4. ![Logic Analyzer](https://www.aliexpress.com/item/33062091072.html?spm=a2g0s.9042311.0.0.27424c4dHus6xH)
+3. [AVR/USBASP programmer](https://www.aliexpress.com/item/32651814443.html?spm=a2g0s.9042311.0.0.27424c4dOZJfJV)
+4. [USB to TTL Adapater](https://www.amazon.com/gp/product/B00QT7LQ88/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
+4. [Logic Analyzer](https://www.aliexpress.com/item/33062091072.html?spm=a2g0s.9042311.0.0.27424c4dHus6xH)
 
 # Atmega328PU pinout
 
@@ -98,7 +98,7 @@ and connect the appropriate ttyUSB and make sure the baudrate is set to 9600.
 
 This confirms both the transmission of data from uC and reception on the host
 machine. But in order to actually look at the electrical signals we can use a
-cheap logic analyzer. This logic analyzer works with ![Saleae Logic Analyzer
+cheap logic analyzer. This logic analyzer works with [Saleae Logic Analyzer
 software](https://www.saleae.com/downloads/).
 
 Below is the waveforms captured and appropriately decoded in the logic analyzer
