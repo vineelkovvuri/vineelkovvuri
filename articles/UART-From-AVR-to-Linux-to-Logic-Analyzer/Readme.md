@@ -11,12 +11,13 @@ exercise we need below equipment.
 3. [AVR/USBASP programmer](https://www.aliexpress.com/item/32651814443.html?spm=a2g0s.9042311.0.0.27424c4dOZJfJV)
 4. [USB to TTL Adapater](https://www.amazon.com/gp/product/B00QT7LQ88/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
 4. [Logic Analyzer](https://www.aliexpress.com/item/33062091072.html?spm=a2g0s.9042311.0.0.27424c4dHus6xH)
+5. [Digital Oscilloscope](https://www.aliexpress.com/item/33024255264.html?spm=a2g0s.9042311.0.0.65aa4c4dDiDkXx)
 
 # Atmega328PU pinout
 
 It is an 8-bit microcontroller(uC) with following pinout. All its digital pins
 are grouped in to 4 banks(PA/PB/PC/PD).
- ![](1.Atmega328PUPinout.png)
+ ![](Atmega328PUPinout.png)
 
 # USBASP programmer pinout
 All of the pins highlighted on uC with pink should be connected to below
@@ -32,7 +33,7 @@ Adapter to TX pin to monitor the string in cutecom. Also, to actually see the
 electrical signals transmitted on the TX pin, connect the Logic Analyzer channel
 zero pin to TX pin of the uC.
 
- ![](2.setup.png)
+ ![](setup.png)
 
 # Simple UART program to send information out of Atmega328PU
 
@@ -93,8 +94,8 @@ Flash the above program to the uC(check references for the sample makefile) and
 connect USB to TTL adapter to TX pin of the uC. Then fire up cutecom(as sudo)
 and connect the appropriate ttyUSB and make sure the baudrate is set to 9600.
 
- ![](USB_to_TTL_Adapater.jpg)
- ![](4.UART_in_cutecom.png)
+ ![](USB_to_TTL_Adapater.png)
+ ![](UART_in_cutecom.png)
 
 This confirms both the transmission of data from uC and reception on the host
 machine. But in order to actually look at the electrical signals we can use a
@@ -103,11 +104,12 @@ software](https://www.saleae.com/downloads/).
 
 Below is the waveforms captured and appropriately decoded in the logic analyzer
  software
- ![](3.UART_in_saleae_logic.png)
+ ![](UART_in_saleae_logic.png)
 
+Finally, If you are curious, you can also watch the same in a cheap oscilloscope
+ like below! ![](Final.png)
 # References
 
 - [Saleae Logic Analyzer](https://www.saleae.com/downloads/)
 - [ATMega328P Datasheet](https://www.sparkfun.com/datasheets/Components/SMD/ATMega328.pdf)
 - [UART Code sample](https://github.com/vineelkovvuri/AVR-Programming/tree/master/mycode/serialIO)
-
