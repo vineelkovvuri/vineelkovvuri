@@ -2,6 +2,7 @@ I ❤️ C | Operating Systems | Debuggers | Compilers | Electronics | FPGA | Vi
 
 ## Articles 🌱
 
+- [UART - From AVR to Linux to Logic Analyzer](https://github.com/vineelkovvuri/vineelkovvuri/blob/master/articles/uart-from-avr-to-linux-to-logic-analyzer/Readme.md)
 - [A Newbies Introduction To Compilation Process And Reverse Engineering](https://github.com/vineelkovvuri/vineelkovvuri/blob/master/articles/a-newbies-introduction-to-compilation-process-and-reverse-engineering/Readme.md)
 - [How Do Breakpoints Work In Debuggers](https://github.com/vineelkovvuri/vineelkovvuri/blob/master/articles/How-Do-Breakpoints-Work-In-Debuggers/Readme.md)
 - [Lib Files 101](https://github.com/vineelkovvuri/vineelkovvuri/blob/master/articles/Lib-Files-101/Readme.md)
